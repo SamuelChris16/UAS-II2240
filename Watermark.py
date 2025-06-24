@@ -8,7 +8,7 @@ from scipy.io.wavfile import write
 fs = 48000               # Sample rate (48 kHz)
 duration = 2.0           # Durasi sinyal (detik)
 f = 440                  # Frekuensi sinusoidal (Hz)
-seed = 2307              # Seed dari tanggal lahir (misal 23 Juli = 2307)
+seed = 1211              # Seed dari tanggal lahir 
 weights = [0.01, 0.1]    # Dua bobot watermark
 
 # -------------------------------------
