@@ -18,7 +18,7 @@ def subsample_420(channel):
     return channel[::2, ::2]
 
 # Zigzag order
-def zigzag(input):
+def zigzag(input):  
     h, w = input.shape
     result = []
     for s in range(h + w - 1):

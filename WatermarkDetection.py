@@ -12,7 +12,7 @@ threshold = 1000     # ambang korelasi untuk menyatakan watermark terdeteksi
 
 # ----------------------------------------
 # Fungsi deteksi watermark
-# ----------------------------------------
+# -------------------   ---------------------
 def detect_watermark(filename, seed, threshold=1000):
     # Baca file audio
     sr, signal = read(filename)
@@ -36,5 +36,5 @@ def detect_watermark(filename, seed, threshold=1000):
 # Uji pada file audio
 # ----------------------------------------
 detect_watermark("original.wav", seed)
-detect_watermark("watermarked_001.wav", seed)
-detect_watermark("watermarked_01.wav", seed)
+detect_watermark("result/watermarked_001.wav", seed)
+detect_watermark("result/watermarked_01.wav", seed)
